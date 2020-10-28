@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPA Calculator</title>
+</head>
+
+<body>
+
+    <h1>GPA Calculator</h1>
+    <h4>Enter your course name, grade and credit hours (ex: 'CS351 A 10')<br>
+        <br>You can continue adding more courses after you calculate points and gpa. Click on 'Calculate' to re-calculate!<br>
+        <br>Click 'Clear All' to clear the Input field as well as the table list<br>
+    </h4>
+    <p>
+        <h4>Course's info: <input id="course_string"></input>
+            <button type="button" id="bttn_add">Add</button>
+            <button type="button" id="bttn_cal">Calculate</button>
+            <button type="button" id="bttn_clearAll">Clear All</button>
+            <br>
+        </h4>
+    </p>
+    <h4><b>Your Course List:</b></h4>
+    <pre>COURSE      GRADE       HOURS </pre>
+    </p>
+
+    <p id="list"></p>
+    <p id="result"></p>
+    <script src="/calc_gpa.js"></script>
+</body>
+
+</html>
